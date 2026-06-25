@@ -4,6 +4,7 @@ let student = {
 }
 
 function getKeys(Students){
-	return Object.keys(student)
+	Object.keys(student)
+	
 }
 console.log(getKeys(student))
