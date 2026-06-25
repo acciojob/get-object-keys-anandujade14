@@ -4,6 +4,6 @@ let student = {
 }
 
 function getKeys(Students){
-	return Students.name.split("")
+	return Object.keys(student)
 }
 console.log(getKeys(student))
